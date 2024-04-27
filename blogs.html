@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form id="sform" onsubmit="postBlog(event)">
+
+    <h1> My Blogs</h1>
+    <h1 id="counter">Total Blogs</h1>
+
+<label>Image Url:<input type="url" id="image-url"></label>
+<label>Title:<input type="text" id="image-title"></label>
+<label>Blog Description:<input type="text" id="image-description"></label>
+<label><button type="submit">Add Blog</button>
+ </label>
+</form>
+
+<hr>
+<ul></ul>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js"></script>
+<script src="blogs.js"></script>
+</html>
